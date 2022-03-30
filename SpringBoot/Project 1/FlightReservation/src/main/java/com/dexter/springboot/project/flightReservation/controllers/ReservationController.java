@@ -1,5 +1,7 @@
 package com.dexter.springboot.project.flightReservation.controllers;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -16,6 +18,9 @@ import com.dexter.springboot.project.flightReservation.services.ReservationServi
 @Controller
 public class ReservationController {
 	
+	private static final Logger LOGGER = LoggerFactory.getLogger(ReservationController.class);
+
+	
 	@Autowired
 	private FlightRepository flightRepo;
 	
@@ -25,13 +30,23 @@ public class ReservationController {
 	
 	@RequestMapping(value="/showCompleteReservation")
 	public String showCompleteReservation(@RequestParam Long flightId, ModelMap modelMap) {
+		LOGGER.info("Inside showCompleteReservation() for the flight ID : " +flightId);
+
+		
 		Flight flight = flightRepo.findById(flightId).get();
 		modelMap.addAttribute("flight", flight);
+		
+		LOGGER.info("Flight is : " +flight);
+
 		return "completeReservation";
 	}
 	
 	@RequestMapping(value="/completeReservation", method=RequestMethod.POST)
 	public String completeReservation(ReservationRequest request, ModelMap modelMap) {
+		
+		LOGGER.info("Inside completeReservation() "+ request);
+
+		
 		Reservation reservation = reservationService.bookFlight(request);
 		modelMap.addAttribute("msg" ,"Reservation created successfully and the id is "+ reservation.getId());
 		return "reservationConfirmation";

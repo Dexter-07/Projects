@@ -1,0 +1,33 @@
+2022-03-28 21:26:40 - Starting FlightReservationApplication using Java 16.0.2 on DESKTOP-0DL418O with PID 6656 (D:\SpringBootFramework\FlightReservation\target\classes started by dexter in D:\SpringBootFramework\FlightReservation)
+2022-03-28 21:26:40 - No active profile set, falling back to 1 default profile: "default"
+2022-03-28 21:26:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-28 21:26:42 - Finished Spring Data repository scanning in 122 ms. Found 4 JPA repository interfaces.
+2022-03-28 21:26:44 - Tomcat initialized with port(s): 8080 (http)
+2022-03-28 21:26:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-28 21:26:44 - Starting service [Tomcat]
+2022-03-28 21:26:44 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-28 21:26:45 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-03-28 21:26:45 - Initializing Spring embedded WebApplicationContext
+2022-03-28 21:26:45 - Root WebApplicationContext: initialization completed in 4815 ms
+2022-03-28 21:26:46 - HikariPool-1 - Starting...
+2022-03-28 21:26:50 - HikariPool-1 - Start completed.
+2022-03-28 21:26:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-28 21:26:51 - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-03-28 21:26:52 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-28 21:26:52 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-28 21:26:54 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-28 21:26:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-28 21:26:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-28 21:26:55 - Adding welcome page: ServletContext resource [/index.html]
+2022-03-28 21:26:56 - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-28 21:26:56 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2022-03-28 21:26:56 - Started FlightReservationApplication in 16.764 seconds (JVM running for 18.306)
+2022-03-28 21:27:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-28 21:27:05 - Initializing Servlet 'dispatcherServlet'
+2022-03-28 21:27:05 - Completed initialization in 3 ms
+2022-03-28 21:27:08 - Inside showLoginPage()
+2022-03-28 21:27:23 - Inside login() and the email is : bill@gmail.com
+2022-03-28 21:27:58 - Application shutdown requested.
+2022-03-28 21:27:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-28 21:27:58 - HikariPool-1 - Shutdown initiated...
+2022-03-28 21:27:59 - HikariPool-1 - Shutdown completed.

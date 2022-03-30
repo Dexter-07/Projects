@@ -1,0 +1,69 @@
+2022-03-29 22:03:08 - Starting FlightReservationApplication using Java 16.0.2 on DESKTOP-0DL418O with PID 9360 (D:\SpringBootFramework\FlightReservation\target\classes started by dexter in D:\SpringBootFramework\FlightReservation)
+2022-03-29 22:03:08 - No active profile set, falling back to 1 default profile: "default"
+2022-03-29 22:03:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 22:03:11 - Finished Spring Data repository scanning in 135 ms. Found 5 JPA repository interfaces.
+2022-03-29 22:03:15 - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 22:03:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 22:03:15 - Starting service [Tomcat]
+2022-03-29 22:03:15 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 22:03:18 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-03-29 22:03:19 - Initializing Spring embedded WebApplicationContext
+2022-03-29 22:03:19 - Root WebApplicationContext: initialization completed in 10587 ms
+2022-03-29 22:03:21 - HikariPool-1 - Starting...
+2022-03-29 22:03:28 - HikariPool-1 - Start completed.
+2022-03-29 22:03:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 22:03:32 - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-03-29 22:03:35 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 22:03:37 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-29 22:03:39 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 22:03:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 22:03:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 22:03:42 - Will not secure any request
+2022-03-29 22:03:43 - Adding welcome page: ServletContext resource [/index.html]
+2022-03-29 22:03:43 - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 22:03:44 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2022-03-29 22:03:44 - Started FlightReservationApplication in 37.447 seconds (JVM running for 43.262)
+2022-03-29 22:03:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 22:03:44 - Initializing Servlet 'dispatcherServlet'
+2022-03-29 22:03:44 - Completed initialization in 1 ms
+2022-03-29 22:03:55 - Inside showRegistrationPage()
+2022-03-29 22:04:56 - Inside register()User [firstName=Ankur, lastName=Gupta, email=dummypi07@gmail.com, password=Dexter@07]
+2022-03-29 22:05:51 - Inside login() and the email is : dummypi07@gmail.com
+2022-03-29 22:07:22 - Application shutdown requested.
+2022-03-29 22:07:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 22:07:22 - HikariPool-1 - Shutdown initiated...
+2022-03-29 22:07:22 - HikariPool-1 - Shutdown completed.
+2022-03-29 22:08:38 - Starting FlightReservationApplication using Java 16.0.2 on DESKTOP-0DL418O with PID 10644 (D:\SpringBootFramework\FlightReservation\target\classes started by dexter in D:\SpringBootFramework\FlightReservation)
+2022-03-29 22:08:38 - No active profile set, falling back to 1 default profile: "default"
+2022-03-29 22:08:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 22:08:39 - Finished Spring Data repository scanning in 78 ms. Found 5 JPA repository interfaces.
+2022-03-29 22:08:46 - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 22:08:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 22:08:46 - Starting service [Tomcat]
+2022-03-29 22:08:46 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-03-29 22:08:46 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-03-29 22:08:46 - Initializing Spring embedded WebApplicationContext
+2022-03-29 22:08:46 - Root WebApplicationContext: initialization completed in 7967 ms
+2022-03-29 22:08:46 - HikariPool-1 - Starting...
+2022-03-29 22:08:47 - HikariPool-1 - Start completed.
+2022-03-29 22:08:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 22:08:47 - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-03-29 22:08:48 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 22:08:48 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-29 22:08:49 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 22:08:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 22:08:50 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 22:08:50 - Will not secure any request
+2022-03-29 22:08:50 - Adding welcome page: ServletContext resource [/index.html]
+2022-03-29 22:08:51 - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 22:08:51 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2022-03-29 22:08:51 - Started FlightReservationApplication in 13.034 seconds (JVM running for 15.637)
+2022-03-29 22:08:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 22:08:51 - Initializing Servlet 'dispatcherServlet'
+2022-03-29 22:08:51 - Completed initialization in 1 ms
+2022-03-29 22:08:52 - Inside showLoginPage()
+2022-03-29 22:08:58 - Inside login() and the email is : dummypi07@gmail.com
+2022-03-29 22:12:38 - Application shutdown requested.
+2022-03-29 22:12:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 22:12:38 - HikariPool-1 - Shutdown initiated...
+2022-03-29 22:12:38 - HikariPool-1 - Shutdown completed.
